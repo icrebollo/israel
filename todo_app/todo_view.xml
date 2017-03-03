@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<openerp>
+  <data>
+
+    <record id="view_form_todo_task" model="ir.ui.view">
+      <field name="name">todo task Form</field>
+      <field name="model">todo.task</field>
+      <field name="arch" type="xml">
+        <form string="todo task">
+	  <header>
+	    <!-- botones -->
+	    <button name="do_toggle_done" type="object" string="Toggle done" class="oe_highlight" />
+	    <button name="do_clear_done" type="object" string="Clear all done" />
+	  </header>
+	  
+	  <!-- <search>
+	    <field name="name"/>
+	    <filter string="Not done" domain="[('is_done','=','False')]"/>	
+	    <filter string="Done" domain="[('is_done','!=','False')]"/>	
+	  </search> -->
+
+        <!-- <tree colors="gray:is_done==True">
+	  <field name="name"/>
+  	  <field name="is_done"/>	    
+	</tree> -->
+	  <sheet>
+	    <!-- contenido -->
+	    <group name="group_top">
+	      <group name="group_left">
+	        <field name="name"/>
+	      </group>
+	      <group name="group_right">
+  	        <field name="is_done"/>	    
+  	        <field name="active" readonly="1"/>	    
+	      </group>
+	    </group>
+	  </sheet>
+	</form>
+
+      </field>
+    </record>
+
+    <!-- Action to open Todo Task list -->
+    <act_window id="action_todo_task"
+      name="todo task"
+      res_model="todo.task"
+      view_mode="tree,form" />
+
+    <!-- Menu item to open todo Task list -->
+    <menuitem id="menu_todo_task"
+      name="todo task"
+      parent="mail.mail_feeds"
+      sequence="20"
+      action="action_todo_task" />
+
+  </data>
+</openerp>
