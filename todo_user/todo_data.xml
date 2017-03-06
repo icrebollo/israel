@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<openerp>
+  <data noupdate="0">
+    <!-- Datos a cargar-->
+    <record model="todo.task" id="todo_task_h">
+        <field name="name">Reinstalar Odoo H</field>
+        <field name="user_id" eval="ref('base.user_root')"/>
+        <field name="date_deadline" eval="(datetime.now() + timedelta(3)).strftime('%Y-%m-%d')"/>
+    </record>
+  </data>
+</openerp>

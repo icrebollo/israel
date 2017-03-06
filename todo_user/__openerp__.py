@@ -4,6 +4,7 @@
 	'description': 'Gestion personal',
 	'author': 'Israel',
 	'depends': ['todo_app'],
-	'data': ['todo_view.xml','security/todo_access_rules.xml'],
+	'data': ['todo_view.xml','security/todo_access_rules.xml','todo_data.xml'],
+	'demo': ['todo.task.csv'],
 
 }

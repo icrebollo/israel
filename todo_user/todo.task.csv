@@ -1,0 +1,6 @@
+id,name,user_id/id,date_deadline
+todo_task_a,Abrir,,2017-01-15
+todo_task_b,Beber vino,base.user_root,2017-02-07
+todo_task_c,Comprar cafe,,2017-03-07
+todo_task_d,Dormir,base.user_root,2017-04-07
+todo_task_e,Explorar,base.user_root,2017-05-07

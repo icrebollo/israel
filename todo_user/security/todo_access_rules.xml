@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-  <data noupdate="1">
+  <data noupdate="0">
       <delete model="ir.rule" search="[('id','=',ref('todo_app.todo_task_user_rule'))]"/>
 
     <record id="todo_task_per_user_rule" model="ir.rule">
