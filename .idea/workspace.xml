@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db91c92b-3f74-4359-8a89-33b1fde9a771" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo_user/security/todo_access_rules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isra_user/casa" afterPath="$PROJECT_DIR$/isra_user/casa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo_app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/todo_app/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo_app/todo_view.xml" afterPath="$PROJECT_DIR$/todo_app/todo_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo_user/todo_task.py" afterPath="$PROJECT_DIR$/todo_user/todo_task.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo_user/todo_view.xml" afterPath="$PROJECT_DIR$/todo_user/todo_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo_user/__openerp__.py" afterPath="$PROJECT_DIR$/todo_user/__openerp__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,31 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo_access_rules.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todo_app/security/todo_access_rules.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="todo_access_rules.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todo_user/security/todo_access_rules.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo_view.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todo_app/todo_view.xml">
+      <file leaf-file-name="__openerp__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo_user/__openerp__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -90,9 +73,9 @@
     <findStrings>
       <find>tareas</find>
       <find>tar</find>
-      <find>tare</find>
       <find>tart</find>
       <find>doma</find>
+      <find>tare</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,6 +88,7 @@
         <option value="$PROJECT_DIR$/todo_user/todo_view.xml" />
         <option value="$PROJECT_DIR$/todo_app/todo_view.xml" />
         <option value="$PROJECT_DIR$/todo_user/security/todo_access_rules.xml" />
+        <option value="$PROJECT_DIR$/todo_user/__openerp__.py" />
       </list>
     </option>
   </component>
@@ -402,10 +386,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo_user/todo_view.xml">
+    <entry file="file://$PROJECT_DIR$/todo_app/todo_view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="35" column="96" lean-forward="false" selection-start-line="35" selection-start-column="96" selection-end-line="35" selection-end-column="96" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo_app/security/todo_access_rules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo_app/__openerp__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -426,26 +426,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo_app/todo_view.xml">
+    <entry file="file://$PROJECT_DIR$/todo_user/todo_view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="148">
+          <caret line="35" column="96" lean-forward="false" selection-start-line="35" selection-start-column="96" selection-end-line="35" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo_app/security/todo_access_rules.xml">
+    <entry file="file://$PROJECT_DIR$/todo_user/__openerp__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todo_user/security/todo_access_rules.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
