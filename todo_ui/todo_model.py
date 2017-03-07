@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from openerp import models, fields, api
 from openerp.addons.base.res import res_request
 from openerp.exceptions import ValidationError
@@ -148,5 +149,3 @@ class TodoTask(models.Model):
         compute='compute_user_todo_count'
     )
     effort_estimate = fields.Integer('Effort Estimate')
-
-
