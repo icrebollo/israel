@@ -26,7 +26,7 @@ class Stage(models.Model):
     sequence = fields.Integer('Sequence')
     tasks = fields.One2many('todo.task','stage_id','Tareas enla etapa')
     fold = fields.Boolean('Fold')
-    #state = fields.Selection(['Activo','apagado','libre'])
+    state = fields.Selection([('act','Activo'),('clo','apagado'),('free','libre')])
 
 class TodoTask(models.Model):
     _inherit = 'todo.task'
@@ -36,11 +36,13 @@ class TodoTask(models.Model):
     refers_to = fields.Reference(referencable_models, 'Refers to')
     stage_fold = fields.Boolean(
         string='Stage_folded?',
-        compute='_compute_stage_fold')
-    search = '_search_stage_fold'
-    inverse = '_write_stage_fold'
+        compute='_compute_stage_fold',
+        search = '_search_stage_fold',
+        inverse = '_write_stage_fold')
 
-    #stage_state = fields.Many2one(related='stage_id.state',string="Estado escena")
+    stage_state = fields.Selection(
+        related='stage_id.state',
+        string="Estado escena")
 
     @api.one
     @api.depends('stage_id.fold')
