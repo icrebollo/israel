@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from openerp import models, fields, api, exceptions
+import pdb
 
 import logging
 _logger = logging.getLogger(__name__)
@@ -16,6 +17,7 @@ class TodoWizard(models.TransientModel):
 
     @api.multi
     def do_mass_update(self):
+        pdb.set_trace()
         self.ensure_one()
         if not (self.new_deadline or self.new_user_id):
             raise exceptions.ValidationError('nada que actualizar')
