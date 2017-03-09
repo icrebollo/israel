@@ -5,7 +5,7 @@
     <act_window id="todo_app.action_todo_task"
         name="Todo task"
         res_model="todo.task"
-        view_mode="kanban,tree,form,calendar,gantt,graph"
+        view_mode="tree,form,kanban,calendar,gantt,graph"
         context="{'search_default_filter_my_task':True}"/>
 
     <record id="todo_task_kanban" model="ir.ui.view">
